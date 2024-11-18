@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"prompt", sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+.root{
+    --text-color:#800000;
+
+}
+body{
+    min-height: 100vh;
+    background: url(goat1.png); background-color: rgb(186, 243, 220);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 30%;
+background-attachment: fixed;
+background-blend-mode: darken;
+background-blend-mode: darken
+
+
+   
+}
+@import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Gloria+Hallelujah&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+.section{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 12%;
+    transition: all .5 ease;
+
+}
+#icon{
+    color: #3e3e3d;
+    font-size: 20px;
+    padding-inline: 10px;
+}
+#icon:hover{
+    color: black;
+}
+div a {
+    color: black;
+}
+.nav{
+    position: fixed;
+    background-color: rgb(255, 255, 255); 
+    height: 70px; 
+    position: :fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius:10px;
+}
+.navbar {
+    display: flex;
+}
+.navbar li a{
+  padding: 10px 0; 
+  margin: -10px 100px; 
+  margin-left: 100px;
+  cursor: pointer;
+  color: #ccdd6a;
+  
+}
+.navbar li a:hover{
+    color: #748516;
+    text-shadow: black;
+    transition: 0.5s;
+}
+.main{
+   float: right;
+    align-items: center;
+    display: flex;
+}
+.main a{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.main #icon{
+    color: #ccdd6a;
+}
+.main #icon:hover{
+    color: #748516;
+
+}
+#menu{
+    font-size: 30px;
+    color: rgb(186, 243, 220);
+    cursor: pointer;
+    margin-left: -20px;
+}
+.bodycont{
+    margin-top: 100px;
+    font-family: "Gloria Hallelujah", serif;
+font-size: 30px;}
+.proname{
+    font-family: "Bebas Neue", sans-serif;
+font-size: 50px;
+text-align: center;}
+.product1{
+    
+    flex-direction: column;
+
+}
+#product1{
+    height: 200px;
+
+}
+#product2{
+    height: 200px;
+}
+#product{
+    display: flex;
+    justify-content: space-between;
+    justify-items: normal;
+    margin: 10px;
+border-radius: 10px;}
+    #product3{
+        height: 200px;
+    }
+    button{
+        background-color: #ccdd6a; /* Blue background color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;   
+
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s   
+ ease-in-out;
+    }
+    button:hover{
+        background-color: #748516;
+    }
+    .mycart{
+        float: right;
+        right: 50px;
+        margin-top: -150px;
+position: fixed;    }
+    
+    #cart-count{
+        float: right;
+    }

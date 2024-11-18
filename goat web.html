@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Goat Shop</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+    <div class="nav"  >
+    <header><img style=" ;height: 70px; margin-left: 50px;" src="goat1.png" alt="goat"></header>
+        <div class="section">
+            <ul class="navbar">
+                
+                <li><a href="#" onclick="scrollToTop"> <i id="icon" class="ri-home-3-line"></i>Home</a> </li>
+                <li><a href="#"> <i id="icon" class="ri-information-2-line"></i>About</a></li>
+                <li ><a href="tel:8220784419"> <i id="icon" class="ri-phone-line"></i>Contact</a></li>
+               
+            </ul>
+    <div class="main">
+       <a href="cart.html"><i id="icon" class="ri-shopping-cart-2-fill"></i>Cart</a>
+        <a href=""><i id="icon" class="ri-user-6-line"></i>Signin</a>
+        <a href="">Register</a>
+        <div id="menu" class="bx bx-menu" id="menu icon"></div>
+    </div>
+        </div>
+</div>
+
+    <h1 class="bodycont"> The Goat Shop is a place where <br> the goat meats were selling at <br> a low cost </h1>
+    <div class="mycart"> 
+        <h1 class="myca">My Cart</h1>
+    <div id="cart-count">Cart: 0 items</div>
+    <br> <!-- Cart count display -->
+    <p style="font-family: font-family: "Josefin Sans", sans-serif;;"><a href="cart.html">Go to Cart</a></p>
+</div>
+    <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h2 class="proname">Our Products <i class="ri-arrow-down-line"></i></h2>
+<br>
+<div id="product">
+        <div class="product1">
+        <img id="product1" src="mutton 1.jpg" alt="">
+            <p>Mutton chest (boneless)</p>
+             <p>Price: ₹ 480/kg </p>
+        <button onclick="addToCart('mutton chest ( boneless)', 480)">Add to Cart</button>
+        </div>
+        
+
+        <div class="product2">
+            <img id="product2" src="mutton 2.jpg" alt="">
+                <p>Mutton chest (with bone)</p>
+                 <p>Price:₹400/kg </p>
+            <button onclick="addToCart('mutton chest (with bone)', 400)">Add to Cart</button>
+            </div>
+
+
+            <div class="product3">
+                <img id="product3" src="mutton 3.jpg" alt="">
+                    <p>Rib bone ( with meat)</p>
+                     <p>Price:₹350/kg </p>
+                <button onclick="addToCart('Rib bone (with meat)', 350)">Add to Cart</button>
+                </div>
+    </div>
+    
+        
+
+    <!-- Link to Cart Page -->
+    
+    <div id="login-status"></div> 
+
+    <script src="cart.js"></script>
+    <script> function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth',
+          speed: 'slow'
+
+        });
+      } </script>
+    
+</body>
+</html>
